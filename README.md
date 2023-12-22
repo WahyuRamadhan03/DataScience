@@ -6,12 +6,12 @@ This dashboard analyzes the Summer Products dataset using Streamlit.
 
 1. **Clone Repository:**
     ```bash
-    git clone https://github.com/username/summer-products-dashboard.git
+    https://github.com/WahyuRamadhan03/DataScience.git
     ```
 
 2. **Navigate to Project Directory:**
     ```bash
-    cd summer-products-dashboard
+    cd DataScience
     ```
 
 3. **Install Dependencies:**
@@ -22,7 +22,7 @@ This dashboard analyzes the Summer Products dataset using Streamlit.
 
 4. **Run Streamlit App:**
     ```bash
-    streamlit run dashboard.py
+    streamlit run analisys_summer_product.py
     ```
 
 5. **Access Dashboard:**
