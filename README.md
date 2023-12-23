@@ -22,7 +22,7 @@ This dashboard analyzes the Summer Products dataset using Streamlit.
 
 4. **Run Streamlit App:**
     ```bash
-    streamlit run analisys_summer_product.py
+    streamlit run summer-products.py
     ```
 
 5. **Access Dashboard:**
