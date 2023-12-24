@@ -3,8 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 
-import pandas as pd
-summer_product = pd.read_csv("/content/summer-products.csv")
+summer_product = pd.read_csv("summer-products.csv")
 print(summer_product)
 
 st.subheader("Null Values Count")
@@ -45,6 +44,9 @@ plt.ylabel("Rating")
 
 st.pyplot(fig1)
 
+
+summer_product = pd.read_csv("summer-products.csv")
+
 sample_data = summer_product.sample(frac=0.1)
 
 model_rating_units = sample_data.groupby(["Model_Product", "rating"]).agg({
@@ -60,4 +62,4 @@ plt.legend(title="Rating", loc="upper right")
 plt.xticks(rotation=45, ha="right")
 
 st.subheader("Jumlah Unit Terjual Berdasarkan Model dan Rating")
-st.pyplot()
+st.pyplot(fig2)
